@@ -1,0 +1,85 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Space+Grotesk:wght@400;600&display=swap');
+
+/* Body settings for vertical and horizontal centering */
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    min-height: 100vh;       
+    margin: 0;
+    color: #333;
+    background-color: #f9f9f9; 
+}
+
+/* Container settings */
+.container {
+    display: flex;
+    align-items: center;    
+    justify-content: space-between; 
+    max-width: 800px;      
+    width: 90%;            
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Typography for headings */
+h1, h2, h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    color: black;
+    margin: 0;
+}
+
+h3 {
+    color:forestgreen;
+}
+
+/* Styling for paragraph text */
+p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+/* Container for the icons */
+.icon-container {
+    display: flex;
+    justify-content: center; 
+    gap: 8px;               
+    align-items: center;    
+    margin-top: 10px;       
+}
+
+/* Style for icon links */
+.icon-container a {
+    display: flex;
+    align-items: center;     
+    justify-content: center; 
+}
+
+/* Icon styling */
+.icon-container a i {
+    font-size: 24px;        
+    color: black;           
+    transition: color 0.3s;   
+}
+
+/* Icon hover effect */
+.icon-container a:hover i {
+    color: forestgreen; 
+}
+
+/* Footer styling */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
